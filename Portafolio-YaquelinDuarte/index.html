@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio | Graciela Yaquelin Duarte Tiznado</title>
+  <meta name="description" content="Portafolio de Graciela Yaquelin Duarte Tiznado. HTML, CSS y JavaScript. Proyectos: Registro de Productos, Tienda Virtual y Gestor de Tareas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo">GY<span>.</span></a>
+      <nav class="menu" id="menu">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO / INICIO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Portafolio Personal</p>
+        <h1 class="title">Graciela Yaquelin <br/>Duarte Tiznado</h1>
+        <p class="subtitle">
+          Soy estudiante de Ingeniería en Desarrollo de Software. Tomé el curso de
+          <strong>Desarrollo de Software Frontend I</strong> (HTML, CSS, JavaScript),
+          con proyectos enfocados en sistemas dinámicos e inventarios digitales.
+        </p>
+        <div class="cta">
+          <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+          <a href="#contacto" class="btn btn-ghost">Contactarme</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <!-- Figura decorativa estilo “escudo”/hud -->
+        <div class="shield">
+          <div class="lock-hole"></div>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </div>
+    <div class="hero-bottom-fade"></div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section" id="habilidades" aria-labelledby="habilidades-title">
+    <div class="container">
+      <h2 class="section-title" id="habilidades-title">Habilidades</h2>
+      <p class="section-desc">
+        Tecnologías y herramientas que utilizo con mayor frecuencia.
+      </p>
+
+      <div class="skills">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Git &amp; GitHub</span>
+        <span class="chip">Diseño Responsive</span>
+        <span class="chip">Manejo de Datos con Archivos</span>
+        <span class="chip">Validación &amp; Manejo de Errores</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section section-alt" id="proyectos" aria-labelledby="proyectos-title">
+    <div class="container">
+      <h2 class="section-title" id="proyectos-title">Proyectos</h2>
+      <p class="section-desc">Algunos de mis trabajos desarrollados en HTML, CSS y JS.</p>
+
+      <div class="grid">
+        <!-- Proyecto 1 -->
+        <article class="card">
+          <div class="card-top">
+            <h3 class="card-title">Registro de Productos</h3>
+            <p class="card-text">
+              Formulario para registrar, actualizar y descargar productos.
+              Incluye cálculo de impuestos y manejo de datos.
+            </p>
+          </div>
+          <div class="card-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener"
+               href="https://06031999-1.github.io/Impuestos/">Ver proyecto</a>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="card">
+          <div class="card-top">
+            <h3 class="card-title">Tienda Virtual “Don Alfred”</h3>
+            <p class="card-text">
+              Catálogo con tarjetas, categorías y cálculo automático de impuestos
+              y precio final por producto.
+            </p>
+          </div>
+          <div class="card-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener"
+               href="https://06031999-1.github.io/mi_tienda_virtual_final/">Ver proyecto</a>
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="card">
+          <div class="card-top">
+            <h3 class="card-title">Gestor de Tareas</h3>
+            <p class="card-text">
+              App sencilla para crear, listar y marcar tareas.
+              Interfaz limpia con feedback en consola.
+            </p>
+          </div>
+          <div class="card-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener"
+               href="https://06031999-1.github.io/TAREITAS/">Ver proyecto</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto" aria-labelledby="contacto-title">
+    <div class="container">
+      <h2 class="section-title" id="contacto-title">Contacto</h2>
+      <p class="section-desc">¿Tienes alguna duda o propuesta? ¡Hablemos!</p>
+
+      <div class="contact">
+        <div class="contact-item">
+          <span class="contact-label">Celular</span>
+          <a href="tel:+526618505209" class="contact-value">661-850-5209</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Correo</span>
+          <a href="mailto:graciela.duartetiznado@cesunbc.edu.mx" class="contact-value">
+            graciela.duartetiznado@cesunbc.edu.mx
+          </a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/06031999-1" target="_blank" rel="noopener" class="contact-value">
+            github.com/06031999-1
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Graciela Yaquelin Duarte Tiznado</span>
+      <a href="#inicio" class="to-top" aria-label="Subir al inicio">↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
